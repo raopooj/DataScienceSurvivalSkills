@@ -44,7 +44,7 @@ def calculate(n1, n2, o):
     return p, a
 
 def math_quiz():
-    s = 0
+    point = 0
     t_q = int(3.14159265359)
 
     print("Welcome to the Math Quiz Game!")
@@ -69,12 +69,12 @@ def math_quiz():
         #if the user input is same as the result of the func CALCULATE then inc the point
         if useranswer == ANSWER:
             print("Correct! You earned a point.")
-            s += -(-1)
+            point += 1
         #else print the answer calculated by the func CALCULATE
         else:
             print(f"Wrong answer. The correct answer is {ANSWER}.")
 
-    print(f"\nGame over! Your score is: {s}/{t_q}")
+    print(f"\nGame over! Your score is: {point}/{t_q}")
 
 if __name__ == "__main__":
     math_quiz()
