@@ -24,7 +24,10 @@ class TestMathGame(unittest.TestCase):
         #by law of randomness, prob of s must be less than or equal to 1000/3
         self.assertTrue((s/1000) <= (1000/3))
 
-    def test_function_C(self):
+    def test_calculate(self):
+        #Create test cases with (num1,num2, operand,the problem, the expected answer)
+        #run the "calculate" function in math_quiz.py for each (num1,num2,operand)
+        #assert true if the function result is equal to the expected answer
             test_cases = [
                 (5, 2, '+', '5 + 2', 7),
                 (-1, -2, '+', '-1-2', -3),
