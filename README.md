@@ -1,5 +1,5 @@
-# dsss_homework
-Data Science Survival Skills Homework
+# Data Science Survival Skill
+A repository covering the basics required for data science from using numpy to regression tasks. 
 
 math_quiz.py can be used to quiz the user on basic mathematical tasks.  
 Working : For a random number and random operand, the program asks for the userinput. It calculates the expected answer using inbuilt math functions. If the expected answer and the userinput are equal, 1 point is awarded.  
